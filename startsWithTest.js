@@ -9,6 +9,7 @@ $(document).ready(function(){
 		ok(startsWith(" xx-sdgj ", "xx-"), 'Trimming test: starts with xx-'); 
 		ok(startsWith(" xx-sdgj", " xx- "), 'Trimming test 2: starts with xx-'); 
 		ok(startsWith("", " "), 'Empty string starts with empty string'); 
+		ok(startsWith("Mn-u59", "mN-"), 'Non case sensitive test'); 
 //		raises(startsWith(foo, " "), 'Undefined test 1');  // undefined is obviously not considered a normal exception
 	}) 
 
